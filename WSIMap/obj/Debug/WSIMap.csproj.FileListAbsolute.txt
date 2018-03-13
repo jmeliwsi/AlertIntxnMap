@@ -1,0 +1,8 @@
+C:\Users\IBM_ADMIN\git\AlertIntxnMap\bin\WSIMap.dll
+C:\Users\IBM_ADMIN\git\AlertIntxnMap\bin\WSIMap.pdb
+C:\Users\IBM_ADMIN\git\AlertIntxnMap\WSIMap\obj\Debug\WSIMap.csprojResolveAssemblyReference.cache
+C:\Users\IBM_ADMIN\git\AlertIntxnMap\WSIMap\obj\Debug\WSIMap.ContextState.resources
+C:\Users\IBM_ADMIN\git\AlertIntxnMap\WSIMap\obj\Debug\WSIMap.MapGL.resources
+C:\Users\IBM_ADMIN\git\AlertIntxnMap\WSIMap\obj\Debug\WSIMap.csproj.GenerateResource.Cache
+C:\Users\IBM_ADMIN\git\AlertIntxnMap\WSIMap\obj\Debug\WSIMap.dll
+C:\Users\IBM_ADMIN\git\AlertIntxnMap\WSIMap\obj\Debug\WSIMap.pdb

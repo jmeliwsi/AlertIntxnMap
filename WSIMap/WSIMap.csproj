@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7884B871-A928-41BC-B30B-1EC907CCCB26}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>WSIMap</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>WSIMap</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\bin\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\bin\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;TRACK_OPENGL_DISPLAY_LISTS_NOT</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp, Version=1.32.2608.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\PdfSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SharpKml, Version=2.0.1.0, Culture=neutral, PublicKeyToken=9bb853c026a5c0ac, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\SharpKml.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tao.OpenGl, Version=0.0.0.0, Culture=neutral, PublicKeyToken=1ca010269a4501ef">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Tao.OpenGl.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Tao.OpenGl.Glu, Version=1.5.0.3, Culture=neutral, PublicKeyToken=3661ea75021374b5">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Tao.OpenGl.Glu.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Tao.Platform.Windows, Version=1.0.0.3, Culture=neutral, PublicKeyToken=701104b2da67a104">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Tao.Platform.Windows.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Arrows.cs" />
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BoundingBox.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ColorTables.cs" />
+    <Compile Include="CubicSpline.cs" />
+    <Compile Include="DemandCapacitySymbol.cs" />
+    <Compile Include="DynamicVectorFile.cs" />
+    <Compile Include="EWSDSymbol.cs" />
+    <Compile Include="FeatureCollection.cs" />
+    <Compile Include="FeatureCollectionCache.cs" />
+    <Compile Include="FeatureCollectionDiskCache.cs" />
+    <Compile Include="FeatureCollectionMemoryCache.cs" />
+    <Compile Include="GridPoints.cs" />
+    <Compile Include="IMapPoint.cs" />
+    <Compile Include="IProjectable.cs" />
+    <Compile Include="IRefreshable.cs" />
+    <Compile Include="JetStream.cs" />
+    <Compile Include="KMLFile.cs" />
+    <Compile Include="MapGLPool.cs" />
+    <Compile Include="ContextState.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ContouringUtility.cs" />
+    <Compile Include="Curve.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DeclutterLabels.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ellipse.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Feature.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Font.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GDAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GPC.cs" />
+    <Compile Include="GraphicalTafSymbol.cs" />
+    <Compile Include="Label.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Layer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LayerCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LoopLayer.cs" />
+    <Compile Include="Line.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MapGL.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MathFunctions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MosaicATMAirportLayoutFile.cs" />
+    <Compile Include="MultipartFeature.cs" />
+    <Compile Include="NavaidSymbol.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OpenGL.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PIREPSymbol.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PointD.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Polygon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Projection.cs" />
+    <Compile Include="RadarSummarySymbol.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RadSumLabel.cs" />
+    <Compile Include="Raster.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RasterTile.cs" />
+    <Compile Include="RectangleD.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RLEDecoder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SurfaceFront.cs" />
+    <Compile Include="Symbol.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Texture.cs" />
+    <Compile Include="TileMgr.cs" />
+    <Compile Include="TriDiagonalMatrix.cs" />
+    <Compile Include="TropopauseSymbol.cs" />
+    <Compile Include="TurbulenceSymbol.cs" />
+    <Compile Include="VectorFile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VolcanoSymbol.cs" />
+    <Compile Include="Wedge.cs" />
+    <Compile Include="WindBarbSymbol.cs" />
+    <Compile Include="WSIFusionToolTip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WSIFusionToolTip.Designer.cs">
+      <DependentUpon>WSIFusionToolTip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WSIMapException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WSIRaster.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WSIRasterLoop.cs" />
+    <Compile Include="WSIToolTip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WxAlertSymbol.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="ContextState.resx">
+      <DependentUpon>ContextState.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MapGL.resx">
+      <DependentUpon>MapGL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Documents\Fusion Map Library Design.doc" />
+    <None Include="Documents\Fusion Map Library Schedule.doc" />
+    <None Include="Documents\ReqSpec_Fusion_MappingEngine.doc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ful\FUL.csproj">
+      <Project>{E00650C5-FCF2-41DD-879E-F1E0E84CDF68}</Project>
+      <Name>FUL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FusionSettings\FusionSettings.csproj">
+      <Project>{80F8461F-4AEE-4608-A0D5-B89BD6D08F70}</Project>
+      <Name>FusionSettings</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

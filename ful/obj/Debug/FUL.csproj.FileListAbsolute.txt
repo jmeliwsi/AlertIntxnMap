@@ -1,0 +1,27 @@
+C:\Users\IBM_ADMIN\Documents\Visual Studio Projects\jmeli_Fusion\FUSION\main\ful\bin\Debug\FUL.dll
+C:\Users\IBM_ADMIN\Documents\Visual Studio Projects\jmeli_Fusion\FUSION\main\ful\bin\Debug\FUL.pdb
+C:\Users\IBM_ADMIN\Documents\Visual Studio Projects\jmeli_Fusion\FUSION\main\ful\bin\Debug\FusionSettings.dll
+C:\Users\IBM_ADMIN\Documents\Visual Studio Projects\jmeli_Fusion\FUSION\main\ful\bin\Debug\log4net.dll
+C:\Users\IBM_ADMIN\Documents\Visual Studio Projects\jmeli_Fusion\FUSION\main\ful\bin\Debug\System.Configuration.dll
+C:\Users\IBM_ADMIN\Documents\Visual Studio Projects\jmeli_Fusion\FUSION\main\ful\bin\Debug\FusionSettings.pdb
+C:\Users\IBM_ADMIN\Documents\Visual Studio Projects\jmeli_Fusion\FUSION\main\ful\obj\Debug\FUL.csprojResolveAssemblyReference.cache
+C:\Users\IBM_ADMIN\Documents\Visual Studio Projects\jmeli_Fusion\FUSION\main\ful\obj\Debug\FUL.dll
+C:\Users\IBM_ADMIN\Documents\Visual Studio Projects\jmeli_Fusion\FUSION\main\ful\obj\Debug\FUL.pdb
+C:\TEMP\Map\ful\bin\Debug\FUL.dll
+C:\TEMP\Map\ful\bin\Debug\FUL.pdb
+C:\TEMP\Map\ful\bin\Debug\System.Configuration.dll
+C:\TEMP\Map\ful\obj\Debug\FUL.csprojResolveAssemblyReference.cache
+C:\TEMP\Map\ful\obj\Debug\FUL.dll
+C:\TEMP\Map\ful\obj\Debug\FUL.pdb
+C:\TEMP\Map\ful\bin\Debug\FusionSettings.dll
+C:\TEMP\Map\ful\bin\Debug\log4net.dll
+C:\TEMP\Map\ful\bin\Debug\FusionSettings.pdb
+C:\Users\IBM_ADMIN\git\AlertIntxnMap\ful\bin\Debug\FUL.dll
+C:\Users\IBM_ADMIN\git\AlertIntxnMap\ful\bin\Debug\FUL.pdb
+C:\Users\IBM_ADMIN\git\AlertIntxnMap\ful\bin\Debug\FusionSettings.dll
+C:\Users\IBM_ADMIN\git\AlertIntxnMap\ful\bin\Debug\log4net.dll
+C:\Users\IBM_ADMIN\git\AlertIntxnMap\ful\bin\Debug\System.Configuration.dll
+C:\Users\IBM_ADMIN\git\AlertIntxnMap\ful\bin\Debug\FusionSettings.pdb
+C:\Users\IBM_ADMIN\git\AlertIntxnMap\ful\obj\Debug\FUL.csprojResolveAssemblyReference.cache
+C:\Users\IBM_ADMIN\git\AlertIntxnMap\ful\obj\Debug\FUL.dll
+C:\Users\IBM_ADMIN\git\AlertIntxnMap\ful\obj\Debug\FUL.pdb

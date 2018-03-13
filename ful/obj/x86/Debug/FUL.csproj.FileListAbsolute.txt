@@ -1,0 +1,5 @@
+C:\Users\IBM_ADMIN\Documents\Visual Studio Projects\jmeli_Fusion\FUSION\main\bin\FUL.dll
+C:\Users\IBM_ADMIN\Documents\Visual Studio Projects\jmeli_Fusion\FUSION\main\bin\FUL.pdb
+C:\Users\IBM_ADMIN\Documents\Visual Studio Projects\jmeli_Fusion\FUSION\main\ful\obj\x86\Debug\FUL.dll
+C:\Users\IBM_ADMIN\Documents\Visual Studio Projects\jmeli_Fusion\FUSION\main\ful\obj\x86\Debug\FUL.pdb
+C:\Users\IBM_ADMIN\Documents\Visual Studio Projects\jmeli_Fusion\FUSION\main\ful\obj\x86\Debug\FUL.csprojResolveAssemblyReference.cache

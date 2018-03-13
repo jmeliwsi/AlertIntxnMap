@@ -1,0 +1,4 @@
+C:\Users\IBM_ADMIN\Documents\Visual Studio Projects\jmeli_Fusion\FUSION\main\bin\FusionSettings.dll
+C:\Users\IBM_ADMIN\Documents\Visual Studio Projects\jmeli_Fusion\FUSION\main\bin\FusionSettings.pdb
+C:\Users\IBM_ADMIN\Documents\Visual Studio Projects\jmeli_Fusion\FUSION\main\FusionSettings\obj\x86\Debug\FusionSettings.dll
+C:\Users\IBM_ADMIN\Documents\Visual Studio Projects\jmeli_Fusion\FUSION\main\FusionSettings\obj\x86\Debug\FusionSettings.pdb

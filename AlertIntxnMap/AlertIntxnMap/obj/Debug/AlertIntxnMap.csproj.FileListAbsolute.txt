@@ -1,0 +1,9 @@
+C:\Users\IBM_ADMIN\git\AlertIntxnMap\bin\AlertIntxnMap.exe.config
+C:\Users\IBM_ADMIN\git\AlertIntxnMap\bin\AlertIntxnMap.exe
+C:\Users\IBM_ADMIN\git\AlertIntxnMap\bin\AlertIntxnMap.pdb
+C:\Users\IBM_ADMIN\git\AlertIntxnMap\AlertIntxnMap\AlertIntxnMap\obj\Debug\AlertIntxnMap.csprojResolveAssemblyReference.cache
+C:\Users\IBM_ADMIN\git\AlertIntxnMap\AlertIntxnMap\AlertIntxnMap\obj\Debug\AlertIntxnMap.AlertItxnMapForm.resources
+C:\Users\IBM_ADMIN\git\AlertIntxnMap\AlertIntxnMap\AlertIntxnMap\obj\Debug\AlertIntxnMap.Properties.Resources.resources
+C:\Users\IBM_ADMIN\git\AlertIntxnMap\AlertIntxnMap\AlertIntxnMap\obj\Debug\AlertIntxnMap.csproj.GenerateResource.Cache
+C:\Users\IBM_ADMIN\git\AlertIntxnMap\AlertIntxnMap\AlertIntxnMap\obj\Debug\AlertIntxnMap.exe
+C:\Users\IBM_ADMIN\git\AlertIntxnMap\AlertIntxnMap\AlertIntxnMap\obj\Debug\AlertIntxnMap.pdb
