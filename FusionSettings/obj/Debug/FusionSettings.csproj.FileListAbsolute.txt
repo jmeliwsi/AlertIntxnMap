@@ -11,4 +11,3 @@ C:\Users\IBM_ADMIN\git\AlertIntxnMap\FusionSettings\bin\Debug\FusionSettings.dll
 C:\Users\IBM_ADMIN\git\AlertIntxnMap\FusionSettings\bin\Debug\FusionSettings.pdb
 C:\Users\IBM_ADMIN\git\AlertIntxnMap\FusionSettings\obj\Debug\FusionSettings.dll
 C:\Users\IBM_ADMIN\git\AlertIntxnMap\FusionSettings\obj\Debug\FusionSettings.pdb
-C:\Users\IBM_ADMIN\git\AlertIntxnMap\FusionSettings\obj\Debug\FusionSettings.csprojResolveAssemblyReference.cache

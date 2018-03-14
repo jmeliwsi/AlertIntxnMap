@@ -282,9 +282,9 @@ namespace AlertIntxnMap
                 hazardType = HazardType.FPG;
             else if (intxn.weatherAdvisory.hazardMetric != 0 && intxn.weatherAdvisory.rmsLoad != 0)
                 hazardType = HazardType.TAPS;
-            else if (intxn.weatherAdvisory.radius != 0)
+            else if (intxn.weatherAdvisory.radius != 0 && !string.IsNullOrWhiteSpace(intxn.weatherAdvisory.hazardId))
                 hazardType = HazardType.TBCA;
-            else if (intxn.weatherAdvisory.turbulenceText != null && !string.IsNullOrWhiteSpace(intxn.weatherAdvisory.turbulenceText))
+            else if (!string.IsNullOrWhiteSpace(intxn.weatherAdvisory.turbulenceText))
                 hazardType = HazardType.PIREP;
             else
                 hazardType = HazardType.UNKNOWN;
