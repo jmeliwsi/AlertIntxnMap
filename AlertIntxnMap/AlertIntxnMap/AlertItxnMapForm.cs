@@ -361,6 +361,8 @@ namespace AlertIntxnMap
 
         private void DrawActiveRoute(Intersection intxn)
         {
+            if (intxn.flightState == null) return;
+
             Curve activeRoute = new Curve(PtListToPointDList(intxn.flightState.pts), Color.DarkGreen, 1, Curve.CurveType.SolidWithPoints);
             activeRoute.Refresh(MapProjections.CylindricalEquidistant, Projection.DefaultCentralLongitude);
             drawingLayer.Features.Add(activeRoute);
@@ -368,6 +370,8 @@ namespace AlertIntxnMap
 
         private void DrawAircraft(Intersection intxn)
         {
+            if (intxn.flightState == null) return;
+
             Symbol aircraft = new Symbol(SymbolType.Plane, Color.Blue, 7, intxn.flightState.plat, intxn.flightState.plon, intxn.flightState.phd);
             drawingLayer.Features.Add(aircraft);
 
